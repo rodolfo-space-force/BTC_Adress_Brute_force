@@ -1,7 +1,8 @@
-# BTC_Adress_Brute_force
+## BTC_Adress_Brute_force
 Brute-force sobre o BTC adress e que testa até 2 caracteres trocados.
+Endereço P2PKH (Pay-to-PubKey-Hash)
 
-#  Base58 Address Brute-Force Validator
+## Base58 Address Brute-Force Validator
 
 Este repositório fornece um script em Python para recuperação de endereços **Base58Check** corrompidos (como endereços Bitcoin), realizando uma busca exaustiva por variantes com até **duas substituições de caracteres**. O objetivo é identificar possíveis correções que resultem em um endereço válido segundo a verificação de checksum da codificação Base58Check.
 
@@ -41,7 +42,7 @@ Corrigir erros tipográficos em endereços codificados em Base58 (por exemplo, e
 ##  Exemplo de Execução
 
 ```python
-# Endereço corrompido (último caractere trocado):
+# Endereço corrompido:
 endereco = '1BoutSLRHtKNngkdXEeobR76b53LETtpyX'
 
 # Executa brute-force buscando apenas 1 resultado válido:
@@ -53,7 +54,7 @@ brute_force_base58_verbose(endereco, max_results=1, max_attempts=5_000_000)
 
  10.000 tentativas... tempo decorrido: 1.2s
  ...
- Válido encontrado: 1BoatSLRHtKNngkdXEeobR76b53LETtpyT
-   ↳ Posição 1: 'o' → 'o', Posição 33: 'X' → 'T'
+Válido encontrado: 1BoatSLRHtKNngkdXEeobR76b53LETtpyT
+   ↳ Posição 3: 'u' → 'a', Posição 33: 'X' → 'T'
  Limite de resultados atingido.
 
