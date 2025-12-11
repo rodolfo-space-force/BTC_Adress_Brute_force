@@ -4,13 +4,17 @@ Endereço P2PKH (Pay-to-PubKey-Hash)
 
 ## Base58 Address Brute-Force Validator
 
-Este repositório fornece um script em Python para recuperação de endereços **Base58Check** corrompidos (como endereços Bitcoin), realizando uma busca exaustiva por variantes com até **duas substituições de caracteres**. O objetivo é identificar possíveis correções que resultem em um endereço válido segundo a verificação de checksum da codificação Base58Check.
+Este repositório fornece um script em Python para recuperação de endereços **Base58Check** corrompidos (como endereços Bitcoin), realizando uma busca exaustiva por variantes com até **duas substituições de caracteres**. 
+
+O objetivo é identificar possíveis correções que resultem em um endereço válido segundo a verificação de checksum da codificação Base58Check.
 
 ---
 
 ##  Objetivo
 
-Corrigir erros tipográficos em endereços codificados em Base58 (por exemplo, endereços de carteira Bitcoin), quando há suspeita de até dois caracteres incorretos. O script tenta todas as combinações possíveis em duas posições e verifica se o endereço resultante é válido.
+Corrigir erros tipográficos em endereços codificados em Base58 (por exemplo, endereços de carteira Bitcoin), quando há suspeita de até dois caracteres incorretos. 
+
+O script tenta todas as combinações possíveis em duas posições e verifica se o endereço resultante é válido.
 
 ---
 
