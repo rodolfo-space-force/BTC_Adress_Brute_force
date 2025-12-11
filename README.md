@@ -61,4 +61,15 @@ brute_force_base58_verbose(endereco, max_results=1, max_attempts=5_000_000)
 Válido encontrado: 1BoatSLRHtKNngkdXEeobR76b53LETtpyT
    ↳ Posição 3: 'u' → 'a', Posição 33: 'X' → 'T'
  Limite de resultados atingido.
+```
+
+You can reach me at rmilhomem[at]gmail[dot]com or connect on [LinkedIn](https://www.linkedin.com/in/rodolfo-space-force/) for collaborations.
+
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Você pode usar, modificar e redistribuir este código livremente, desde que mencione o autor original.
+
+[Clique aqui para ver a licença completa.](https://opensource.org/licenses/MIT)
+
 
