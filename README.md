@@ -1,4 +1,7 @@
 ## BTC_Adress_Brute_force
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/topics/python)
+
 Brute-force sobre o BTC adress e que testa até 2 caracteres trocados.
 Endereço P2PKH (Pay-to-PubKey-Hash)
 
